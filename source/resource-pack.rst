@@ -39,7 +39,6 @@ Send a single resource pack to a client that is required, with a UUID computed b
   public void sendResourcePack(final @NonNull Audience target) {
     final ResourcePackRequest request = ResourcePackRequest.resourcePackRequest()
       .packs(PACK_INFO)
-      .required(true)
       .prompt(Component.text("Please download the resource pack!"))
       .required(true)
       .build();
@@ -51,7 +50,6 @@ Send a single resource pack to a client that is required, with a UUID computed b
   public void sendOptionalResourcePack(final @NonNull Audience target) {
     final ResourcePackRequest request = ResourcePackRequest.resourcePackRequest()
       .packs(PACK_INFO)
-      .required(true)
       .prompt(Component.text("Please download the resource pack!"))
       .required(false)
       .build();
