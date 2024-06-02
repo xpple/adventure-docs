@@ -31,7 +31,7 @@ author = 'KyoriPowered'
 api_version = '4.17.0'
 
 # The latest versions of adventure-platform builds
-platform_version = '4.3.2'
+platform_version = '4.3.3'
 platform_fabric_version = '5.13.0'
 
 # The latest version of the ansi library
