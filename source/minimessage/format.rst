@@ -144,7 +144,7 @@ Examples
 
 .. warning::
    Since the introduction of chat signatures in 1.19.1, the client no longer executes commands that require signed arguments
-   like the ``/say`` or ``/tell`` command to prevent the server from sending signed messages on the clients behalf.
+   like the ``/say`` or ``/tell`` command to prevent the server from sending signed messages on the client's behalf.
 
 Hover
 *****
